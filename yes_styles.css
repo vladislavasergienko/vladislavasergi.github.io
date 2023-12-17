@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-image: radial-gradient(circle, #2aa334, #35b835, #43cd34, #52e331, #62f92c);
+
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.header_text {
+font-family: 'Comic Sans MS';
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(92, 209, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+
+
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif_shrek{
+width: 450px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height: auto;
+}

@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-image: radial-gradient(circle, #62f92c, #52e331, #43cd34, #35b835, #2aa334);
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.header_text {
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(19, 97, 4);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: rgb(19, 97, 4);
+    color: rgb(92, 255, 59);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(55, 178, 226);
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.gif_container_shreksy {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+        height: auto;
+}
